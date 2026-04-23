@@ -1,4 +1,4 @@
-name: Pipeline CI - Lab Ingeniería de Software II
+name: Pipeline CI - Lab Ingenieria de Software II
 
 on:
   push:
@@ -9,25 +9,8 @@ on:
 jobs:
   pruebas:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Descargar código del repositorio
-        uses: actions/checkout@v4
-
-      name: Pipeline CI - Lab Ingeniería de Software II
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  pruebas:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Descargar código del repositorio
+      - name: Descargar codigo del repositorio
         uses: actions/checkout@v4
 
       - name: Instalar Node.js
