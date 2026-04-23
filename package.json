@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-lab",
+  "version": "1.0.0",
+  "description": "Mi primer pipeline CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
