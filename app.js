@@ -1,5 +1,5 @@
 function sumar(a, b) {
-  return a + b;
+  return a * b;
 }
 
 const http = require('http');
